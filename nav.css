@@ -1,0 +1,29 @@
+/* CSS to style the active navbar item
+.nav-link.active {
+    font-weight: bold;
+}
+li.active a {
+    font-weight: bold;
+    color: mediumseagreen;
+}
+
+/* Change the link color on hover
+li a:hover {
+    color: pink;
+} */
+
+/* CSS to style the active navbar item */
+.navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+    color: darksalmon !important; /* Change the text color of active item */
+}
+
+/* Change the link color on hover */
+.navbar-nav .nav-item .nav-link:hover {
+    color: salmon !important; /* Change color on hover */
+}
+
+body {
+    background-color: black;
+    color: white; /* Optionally, change text color to white for better visibility */
+}
